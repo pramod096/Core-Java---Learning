@@ -11,7 +11,7 @@ public class LambdaDemo2 {
 		if(isFactor.test(10, 4))
 			System.out.println("4 is a factor of 10");
 		if(!isFactor.test(10, 3))
-			System.out.println("3 is not a factor");
+			System.out.println("3 is not a");
 		System.out.println();
 
 		NumericTest lessThan = (f,g) -> (f < g);
@@ -19,7 +19,7 @@ public class LambdaDemo2 {
 		if(lessThan.test(10, 20))
 			System.out.println("10 is less than 2");
 		else
-			System.out.println("10 is greater than 20");
+			System.out.println("10 is greater than ");
 			
 
 	}
