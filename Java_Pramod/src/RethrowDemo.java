@@ -8,7 +8,7 @@ class Rethrow{
 				System.out.println(numer[i]/denom[i]);
 				
 			}catch(ArithmeticException exc) {
-				System.out.println("Can't divide by Zero!");
+				System.out.println(" Can't divide by Zero! ");
 			}catch(ArrayIndexOutOfBoundsException exc) {
 				System.out.println("No matching element found");
 				throw exc;

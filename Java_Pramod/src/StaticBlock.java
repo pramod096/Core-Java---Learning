@@ -4,7 +4,7 @@ class StaticBlock{
 	
 	
 	static void hello() {
-		System.out.println("hello");
+		System.out.println("  hello");
 	}
 
 

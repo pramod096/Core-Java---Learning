@@ -9,7 +9,7 @@ public static char prompt(String str) throws IOException  {
 		// TODO Auto-generated method stub
 		char ch;
 		
-			ch = prompt("Enter a letter");
+			ch = prompt(" Enter a letter ");
 		
 		System.out.println("You pressed " +ch);
 	}
