@@ -1,5 +1,3 @@
-
-
 class A{
 	static int x = 20;
 	int i,j;
@@ -24,10 +22,11 @@ class A{
 		 }
 		 
 		 void show() {
-			 System.out.println("k");
+			 System.out.print("k");
 		 }
 		 
 	}
+	
 public class Override {
 protected int x = 30;
 	public static void main(String[] args) {
