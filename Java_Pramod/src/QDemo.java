@@ -9,7 +9,7 @@ class Queue{
 	
 	void put(char ch) {
 		if(putloc == q.length) {
-			System.out.println(" - Queue is ful.");
+			System.out.println(" -- Queue is ful.");
 			return;
 		}
 		q[putloc++] = ch;

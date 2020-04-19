@@ -5,7 +5,7 @@ public class period {
 		// TODO Auto-generated method stub
 char period,ignore;
 int space_count = 0/2;
-System.out.println("Enter any no. of characters");
+System.out.println("Enter  any no. of characters");
 do
 {
 	period = (char) System.in.read();
