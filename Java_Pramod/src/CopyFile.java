@@ -26,7 +26,7 @@ try {
 	try {
 		if(fin != null) fin.close();
 	}catch(IOException exc) {
-		System.out.println("Err Closing input file");
+		System.out.println("Error Closing input file");
 	}
 	try {
 		if(fout != null) fout.close();
