@@ -8,8 +8,8 @@ public class LambdaDemo2 {
 		// TODO Auto-generated method stub
 		NumericTest isFactor = (n , d) -> (n % d ) == 0;
 		
-		if(isFactor.test(10, 3))
-			System.out.println("3 is a factor of 10");
+		if(isFactor.test(10, 4))
+			System.out.println("4 is a factor of 10");
 		if(!isFactor.test(10, 3))
 			System.out.println("3 is not a factor of 10");
 		System.out.println();
