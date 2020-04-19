@@ -1,11 +1,11 @@
 
 public class Gen<T,O,M> {
 T ob;
-O s;
+O z;
 
 Gen(T o, O b){
 	ob = o;
-	s = b;
+	z =  b;
 	
 }
 
