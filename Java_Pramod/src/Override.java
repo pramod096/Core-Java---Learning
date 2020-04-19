@@ -8,7 +8,7 @@ class A{
 	
 	 void show() {
 		 try {
-		System.out.println("i");
+		System.out.println(" i ");
 	}catch(ArrayIndexOutOfBoundsException exte) {
 		
 	}
