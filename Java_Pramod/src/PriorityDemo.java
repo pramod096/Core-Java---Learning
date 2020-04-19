@@ -12,7 +12,7 @@ class Priority implements Runnable{
 	}
 	
 	public void run() {
-		System.out.println(thrd.getName() + " starting.");
+		System.out.println(thrd.getName() + " starting. ");
 		do {
 			count++;
 			
