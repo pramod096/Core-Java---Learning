@@ -6,7 +6,16 @@ public class LambdaDemo2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		NumericTest isFactor = (n , d) -> (n % d ) == 0;
+		int num = 20;
+		NumericTest isFactor =  (n , d) -> {
+			int z = 20;
+			z = 30;
+			if((n % d) == 0)
+return true;
+else 
+	return false;
+		};
+		
 		
 		if(isFactor.test(10, 2))
 			System.out.println("2 is a factor of 10");
