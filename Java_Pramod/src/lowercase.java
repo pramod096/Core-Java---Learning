@@ -4,7 +4,7 @@ public class lowercase {
 	public static void main(String[] args) throws java.io.IOException{
 		char period,ignore;
 		int changes = 0;
-		System.out.println("Enter lower case or upper case letters\nPress \".\" to quit");
+		System.out.println("Enter lower case or  upper case letters\nPress \".\" to quit");
 		do
 		{
 			period = (char) System.in.read();

@@ -16,7 +16,7 @@ public class Bubble {
 		
 		System.out.println(x[0][0][9]);
 		
-		System.out.print("Originl array is : ");
+		System.out.print("Original array is : ");
 		for(int i = 0; i < size; i++)
 			System.out.print(" " +nums[i]);
 		System.out.println();
