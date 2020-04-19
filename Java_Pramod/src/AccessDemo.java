@@ -1,7 +1,7 @@
 class MyClass{
 	private int alpha;
 	public int beta;
-	int delta;
+	int gamma;
 	
 	 void setAlpha(int a) {
 		alpha = a;

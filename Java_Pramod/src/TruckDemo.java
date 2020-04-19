@@ -64,7 +64,7 @@ public class TruckDemo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 			Truck semi = new Truck(2, 200, 7, 4400);
-			System.out.println("Semi can carry " + semi.getCargo() + " punds");
+			System.out.println("Semi can carry " + semi.getCargo() + " punds ");
 			System.out.println("Semi can carry " + semi.getCargo() + " punds");
 			System.out.println("Semi can carry " + semi.getCargo() + " punds");
 			System.out.println("Semi can carry " + semi.getCargo() + " punds");
