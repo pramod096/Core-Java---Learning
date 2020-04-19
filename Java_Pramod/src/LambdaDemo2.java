@@ -17,7 +17,7 @@ public class LambdaDemo2 {
 		NumericTest lessThan = (f,g) -> (f < g);
 		
 		if(lessThan.test(10, 20))
-			System.out.println("10 is less than 20");
+			System.out.println("10 is less than 2");
 		else
 			System.out.println("10 is greater than 20");
 			
