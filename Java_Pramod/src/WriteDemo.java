@@ -7,7 +7,7 @@ int b;
 b = 287;
 System.out.println((char) 32);
 System.out.write(b);
-System.out.write('\t');
+System.out.write('\n');
 	}
 
 }
