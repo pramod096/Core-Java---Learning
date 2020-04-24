@@ -8,7 +8,7 @@ DataInputStream fin = null;
 FileOutputStream fout = null;
 
 if(args.length != 2) {
-	System.out.println("Usage: CopyFile from to");
+	System.out.println(" Usage: CopyFile from to ");
 	return;
 }
 
