@@ -23,7 +23,7 @@ public class PassObRef {
 		// TODO Auto-generated method stub
 Test t = new Test(5);
 Test t1 = new Test(t);
-System.out.println(t.sum+"\n"+t1.sum);
+System.out.println(t.sum+" \n "+t1.sum);
 	}
 
 }
