@@ -10,7 +10,7 @@ class Stack{
 	
 	void push(char ch) {
 		if(putloc == q.length) {
-			System.out.println(" -- Queue is ful.");
+			System.out.println("-- Queue is ful.");
 			return;
 		}
 		q[putloc++] = ch;
@@ -18,7 +18,7 @@ class Stack{
 	
 	char pop() {
 		if(getloc == putloc) {
-			System.out.println(" - Queue is empty");
+			System.out.println("- Queue is empty");
 			return (char) 0;
 		}
 		return q[getloc++];
