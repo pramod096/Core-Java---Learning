@@ -3,7 +3,7 @@
 	int val();
 }
 public class AutoBoxing {
-	@MyAnno(str = "", val = 0)
+	@MyAnno(str = "  ", val = 0)
 	public static void abc(Integer z) {
 		z = z+1;
 		
