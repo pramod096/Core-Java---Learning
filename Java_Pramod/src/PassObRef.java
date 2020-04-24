@@ -20,10 +20,13 @@ int hello(int x) {
 public class PassObRef {
 
 	public static void main(String[] args) {
+		
+		String str = new String("One Two Three One");
+		int z = str.lastIndexOf("One");
 		// TODO Auto-generated method stub
 Test t = new Test(5);
 Test t1 = new Test(t);
-System.out.println(t.sum+" \n "+t1.sum);
+System.out.println(t.sum+" \n "+t1.sum + " \n" +z);
 	}
 
 }
